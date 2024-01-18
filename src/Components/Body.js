@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
 import { swiggyApiUrl } from "../Utils/Constants";
 import Shimmer from "./Shimmer";
-
+import { Link } from "react-router-dom";
 const filterData = (searchText, restaurants) => {
 	return restaurants.filter((restaurant) => {
 		if (restaurant.info && restaurant.info.name) {
@@ -74,7 +74,13 @@ const Body = () => {
 							<h1>No restaurants found</h1> // Handle empty search and no matches
 						) : filteredRestaurant.length > 0 ? (
 							filteredRestaurant.map((restaurant) => (
-								<RestaurantCard key={restaurant.info.id} {...restaurant.info} />
+								<Link
+									key={restaurant.info.id}
+									to={"/restaurant/" + restaurant.info.id}
+								>
+									{" "}
+									<RestaurantCard {...restaurant.info} />
+								</Link>
 							))
 						) : (
 							<h1>No restaurant found</h1>
