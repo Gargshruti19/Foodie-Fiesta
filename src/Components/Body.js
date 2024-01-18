@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import RestaurantCard from "./RestaurantCard";
-import { swiggyApiurl } from "../Utils/Constants";
+import { swiggyApiUrl } from "../Utils/Constants";
 import Shimmer from "./Shimmer";
 
 const filterData = (searchText, restaurants) => {
@@ -25,7 +25,7 @@ const Body = () => {
 	}, []);
 
 	const getRestaurant = async () => {
-		const data = await fetch(swiggyApiurl);
+		const data = await fetch(swiggyApiUrl);
 
 		const json = await data.json();
 

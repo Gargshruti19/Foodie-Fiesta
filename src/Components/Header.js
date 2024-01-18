@@ -1,5 +1,8 @@
 import { useState } from "react";
 import logoImg from "../../assets/logo.png";
+
+import { Link } from "react-router-dom";
+
 const Title = () => {
 	return (
 		<div className="title">
@@ -15,10 +18,19 @@ const Header = () => {
 			<Title />
 
 			<ul className="nav-items">
-				<li>Home</li>
-				<li>About</li>
-				<li>Contact</li>
-				<li>Cart</li>
+				<Link to="/">
+					<li>Home</li>
+				</Link>
+				<Link to="/about">
+					<li>About</li>
+				</Link>
+				<Link to="/contact">
+					<li>Contact</li>
+				</Link>
+				<Link>
+					<li>Cart</li>
+				</Link>
+
 				<button
 					className="log-btn"
 					onClick={() => {
