@@ -3,6 +3,8 @@ import RestaurantCard from "./RestaurantCard";
 import { swiggyApiUrl } from "../Utils/Constants";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
+
+import useOnlineStatus from "../Utils/useOnlineStatus";
 const filterData = (searchText, restaurants) => {
 	return restaurants.filter((restaurant) => {
 		if (restaurant.info && restaurant.info.name) {
@@ -44,6 +46,16 @@ const Body = () => {
 
 	// if (filteredRestaurant.length === 0)
 	// 	return <h1>No restaurant match your filter</h1>;
+
+	const onlineStatus = useOnlineStatus();
+
+	if (!onlineStatus)
+		return (
+			<h1>
+				Looks like you're offline !! Please check your Internet Connection
+			</h1>
+		);
+
 	return (
 		<>
 			{allRestaurants.length === 0 ? (

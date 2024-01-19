@@ -1,38 +1,25 @@
-import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { swiggyMenuApiURL } from "../Utils/Constants";
+
 import { imgCdnUrl } from "../Utils/Constants";
 import Shimmer from "./Shimmer";
-
-
+import useRestaurantMenu from "../Utils/useRestaurantMenu";
 
 const RestaurantMenu = () => {
 	const { id } = useParams();
 
-	const [menuData, setMenuData] = useState(null);
+	const menuData = useRestaurantMenu(id);
 
-	useEffect(() => {
-		fetchMenu();
-	}, []);
-
-	const fetchMenu = async () => {
-		const data = await fetch(swiggyMenuApiURL + id);
-		const json = await data.json();
-		console.log(json.data);
-		setMenuData(json.data);
-	};
 	if (menuData === null) return <Shimmer />;
 
 	const { name, cloudinaryImageId, avgRating, costForTwoMessage, cuisines } =
 		menuData.cards[0].card.card.info;
 
 	const { itemCards } =
-		menuData.cards[2].groupedCard.cardGroupMap.REGULAR.cards[1].card.card;
-
+		menuData.cards[2].groupedCard.cardGroupMap.REGULAR.cards[2].card.card;
 	console.log(itemCards);
+
 	return (
 		<div>
-		
 			<h2>{name}</h2>
 			<img src={imgCdnUrl + cloudinaryImageId}></img>
 			<h3>{cuisines.join(", ")}</h3>
