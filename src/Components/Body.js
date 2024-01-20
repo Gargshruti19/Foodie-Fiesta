@@ -31,9 +31,9 @@ const Body = () => {
 
 		const json = await data.json();
 
-		console.log(
-			json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
-		);
+		// console.log(
+		// 	json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants
+		// );
 		setAllRestaurants(
 			json?.data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.restaurants
 		);
@@ -62,8 +62,9 @@ const Body = () => {
 				<Shimmer /> // Show Shimmer while data is loading
 			) : (
 				<>
-					<div className="search-container">
+					<div className="search-container  flex justify-center items-center m-6 space-x-5">
 						<input
+							className="w-96 border-2 border-slate-400 shadow-orange-600 p-2 rounded-xl focus:outline-none focus:ring focus:ring-violet-100 placeholder:text-gray-400 text-gray-700 "
 							type="text"
 							placeholder="Search Your Favourite Restaurant"
 							value={searchText}
@@ -72,16 +73,29 @@ const Body = () => {
 							}}
 						></input>
 						<button
+							className="bg-green-600 p-2 rounded-xl px-4 border-0 text-white hover:bg-green-700"
 							onClick={() => {
-								const data = filterData(searchText, allRestaurants);
-								setFilteredRestaurant(data);
+								const filterRestaurant = filterData(searchText, allRestaurants);
+								setFilteredRestaurant(filterRestaurant);
 							}}
 						>
 							Search
 						</button>
+						<button
+							className="bg-green-900 p-2 rounded-xl px-4 border-0 text-white hover:bg-green-800"
+							onClick={() => {
+								const filteredList = allRestaurants.filter(
+									(res) => res.info.avgRating > 4
+								);
+								// console.log(filteredList);
+								setFilteredRestaurant(filteredList);
+							}}
+						>
+							Top Rated Restaurants
+						</button>
 					</div>
 
-					<div className="restaurant-list">
+					<div className="flex flex-wrap space-x-8 justify-center">
 						{searchText === "" && filteredRestaurant.length === 0 ? (
 							<h1>No restaurants found</h1> // Handle empty search and no matches
 						) : filteredRestaurant.length > 0 ? (
