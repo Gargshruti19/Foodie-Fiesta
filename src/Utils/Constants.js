@@ -6,3 +6,6 @@ export const swiggyApiUrl =
 
 export const swiggyMenuApiURL =
 	"https://foodfire.onrender.com/api/menu?page-type=REGULAR_MENU&complete-menu=true&lat=28.9844618&lng=77.7064137&&submitAction=ENTER&restaurantId=";
+
+export const img_Menu_Food =
+	"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/";
