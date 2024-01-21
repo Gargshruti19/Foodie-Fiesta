@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import RestaurantCard from "./RestaurantCard";
+import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import { swiggyApiUrl } from "../Utils/Constants";
 import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
@@ -21,6 +21,11 @@ const Body = () => {
 	const [searchText, setSearchText] = useState("");
 	const [allRestaurants, setAllRestaurants] = useState([]);
 	const [filteredRestaurant, setFilteredRestaurant] = useState([]);
+
+	//this withPromotedLabel is a higher order component
+	const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
+
+	console.log(allRestaurants);
 
 	useEffect(() => {
 		getRestaurant();
@@ -104,8 +109,11 @@ const Body = () => {
 									key={restaurant.info.id}
 									to={"/restaurant/" + restaurant.info.id}
 								>
-									{" "}
-									<RestaurantCard {...restaurant.info} />
+									{restaurant.info.isNewlyOnboarded ? (
+										<RestaurantCardPromoted {...restaurant.info} />
+									) : (
+										<RestaurantCard {...restaurant.info} />
+									)}
 								</Link>
 							))
 						) : (
