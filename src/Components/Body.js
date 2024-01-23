@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext } from "react";
 import RestaurantCard, { withPromotedLabel } from "./RestaurantCard";
 import { swiggyApiUrl } from "../Utils/Constants";
 import Shimmer from "./Shimmer";
@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 import useOnlineStatus from "../Utils/useOnlineStatus";
 import UserContext from "../Utils/UserContext";
+
 const filterData = (searchText, restaurants) => {
 	return restaurants.filter((restaurant) => {
 		if (restaurant.info && restaurant.info.name) {
@@ -61,7 +62,7 @@ const Body = () => {
 				Looks like you're offline !! Please check your Internet Connection
 			</h1>
 		);
-
+	const { loggedInUser, setUserName } = useContext(UserContext);
 	return (
 		<>
 			{allRestaurants.length === 0 ? (
@@ -106,6 +107,10 @@ const Body = () => {
 							id="user-name"
 							className="bg-black text-white placeholder:text-white px-2 py-1 placeholder:text-sm"
 							placeholder="Typing...."
+							value={loggedInUser}
+							onChange={(e) => {
+								setUserName(e.target.value);
+							}}
 						></input>
 					</div>
 
