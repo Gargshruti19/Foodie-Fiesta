@@ -19,7 +19,7 @@ const Header = () => {
 
 
 	const {loggedInUser} = useContext(UserContext);
-console.log(loggedInUser);
+// console.log(loggedInUser);
 
 	return (
 		<div className="flex bg-orange-400 justify-between h-24 ">

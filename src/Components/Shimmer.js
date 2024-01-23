@@ -5,7 +5,7 @@ const Shimmer = ({data}) => {
 				<p className="bg-gray-300 w-1/2 h-16 flex text-center my-5"></p>
 			</div>
 			<div className="flex flex-wrap space-x-8 justify-center my-10">
-				data.{Array(10)
+				{Array(10)
 					.fill(" ")
 					.map((item, index) => (
 						<div

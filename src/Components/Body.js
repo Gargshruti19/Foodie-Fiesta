@@ -100,11 +100,8 @@ const Body = () => {
 						>
 							Top Rated Restaurants
 						</button>
-						<label for="user-name" className="font-bold text-xl">
-							User Name :
-						</label>
+						<label className="font-bold text-xl">User Name :</label>
 						<input
-							id="user-name"
 							className="bg-black text-white placeholder:text-white px-2 py-1 placeholder:text-sm"
 							placeholder="Typing...."
 							value={loggedInUser}
