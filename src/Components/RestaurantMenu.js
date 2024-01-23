@@ -19,8 +19,9 @@ const RestaurantMenu = () => {
 		cuisines,
 		areaName,
 		sla,
+		totalRatingsString,
 	} = menuData.cards[0].card.card.info;
-	console.log(menuData.cards[0].card.card.info);
+	// console.log(menuData.cards[0].card.card.info);
 	const { itemCards } =
 		menuData.cards[2].groupedCard.cardGroupMap.REGULAR.cards[2].card.card;
 	// console.log(itemCards);
@@ -36,16 +37,29 @@ const RestaurantMenu = () => {
 
 	return (
 		<div className="flex justify-center flex-col items-center">
-			<div>
-				<h2 className="text-3xl font-bold">{name}</h2>
+			<div className="flex justify-between w-1/2 mt-10 border-b-2 border-dashed border-gray-300 pb-10">
+				<div>
+					<h2 className="text-2xl font-bold">{name}</h2>
 
-				<h3 className="text-xl font-bold">{cuisines.join(", ")}</h3>
-				<h4>
-					{areaName} {", "} {sla.lastMileTravelString}
-				</h4>
+					<h3 className="text-sm text-gray-400 ">{cuisines.join(", ")}</h3>
+					<h4 className="text-sm text-gray-400">
+						{areaName} {", "} {sla.lastMileTravelString}
+					</h4>
+				</div>
+				<div className="border-2 border-gray-200">
+					<h4 className="bg-green-500 text-white p-1 border-0 w-14 rounded-xl m-1">
+						{"⭐"}
+						{avgRating}
+					</h4>
+					<h4 className="text-xs text-gray-400 pt-2 border-t-2 border-gray-300">
+						{totalRatingsString}
+					</h4>
+				</div>
 			</div>
-			<h4>{avgRating} stars</h4>
-			<h3>{costForTwoMessage}</h3>
+			<div className="flex justify-start w-1/2 m-5 font-bold space-x-2">
+				<h3>{sla.slaString}</h3>
+				<h3 className="">{costForTwoMessage}</h3>
+			</div>
 			{/* Accordions */}
 			{categories.map((category) => (
 				<RestaurantCategory data={category.card.card} />
