@@ -21,11 +21,14 @@ const ItemList = ({ items }) => {
 							{item.card.info.description}
 						</p>
 					</div>
-					<div className="w-1/5 flex justify-end">
+					<div className="w-1/5 flex h-24 relative">
 						<img
-							className="w-32 rounded-lg h-24 mt-2"
+							className="w-36 rounded-lg h-24"
 							src={img_Menu_Food + item.card.info.imageId}
 						></img>
+						<button className="p-1 bg-orange-600 px-2 text-white shadow-lg absolute m-auto right-9 -bottom-4 rounded-lg">
+							Add +
+						</button>
 					</div>
 				</div>
 			))}
