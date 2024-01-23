@@ -1,14 +1,15 @@
 import { useParams } from "react-router-dom";
 
-import { imgCdnUrl } from "../Utils/Constants";
 import ShimmerMenu from "./ShimmerMenu";
 import useRestaurantMenu from "../Utils/useRestaurantMenu";
 import RestaurantCategory from "./RestaurantCategory";
+import { useState } from "react";
+
 const RestaurantMenu = () => {
 	const { id } = useParams();
 
 	const menuData = useRestaurantMenu(id);
-
+	const [showIndex, setShowIndex] = useState(null);
 	if (menuData === null) return <ShimmerMenu />;
 
 	const {
@@ -61,10 +62,13 @@ const RestaurantMenu = () => {
 				<h3 className="">{costForTwoMessage}</h3>
 			</div>
 			{/* Accordions */}
-			{categories.map((category) => (
+			{categories.map((category, index) => (
+				//Controlled Component
 				<RestaurantCategory
 					data={category.card.card}
 					key={category.card.card.title}
+					showItems={index === showIndex && true}
+					setShowIndex={() => setShowIndex(index)}
 				/>
 			))}
 		</div>

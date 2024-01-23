@@ -25,7 +25,7 @@ const Body = () => {
 	//this withPromotedLabel is a higher order component
 	const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
 
-	console.log(allRestaurants);
+	// console.log(allRestaurants);
 
 	useEffect(() => {
 		getRestaurant();

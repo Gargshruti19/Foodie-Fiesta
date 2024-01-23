@@ -1,16 +1,8 @@
 import ItemList from "./ItemList";
-import { useState } from "react";
-const RestaurantCategory = (props) => {
-	// console.log(props.data.itemCards);
-	const { title, itemCards } = props.data;
-	const [showItems, setShowItems] = useState(false);
 
+const RestaurantCategory = ({ data, showItems, setShowIndex }) => {
 	const handleClick = () => {
-		if (showItems) {
-			setShowItems(false);
-		} else {
-			setShowItems(true);
-		}
+		setShowIndex();
 	};
 
 	return (
@@ -22,12 +14,12 @@ const RestaurantCategory = (props) => {
 					onClick={handleClick}
 				>
 					<span className="font-bold">
-						{title} ({itemCards.length})
+						{data.title} ({data.itemCards.length})
 					</span>
 					<span>🔽</span>
 				</div>
 				{/* Accordion Body */}
-				{showItems && <ItemList items={itemCards} />}
+				{showItems && <ItemList items={data.itemCards} />}
 			</div>
 		</div>
 	);
