@@ -1,8 +1,10 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import logoImg from "../../assets/logo.png";
 
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../Utils/useOnlineStatus";
+import UserContext from "../Utils/UserContext";
+
 const Title = () => {
 	return (
 		<div className="title w-24 mx-4">
@@ -14,6 +16,11 @@ const Title = () => {
 const Header = () => {
 	const [logBtn, setLogBtn] = useState("Log In");
 	const onlineStatus = useOnlineStatus();
+
+
+	const {loggedInUser} = useContext(UserContext);
+console.log(loggedInUser);
+
 	return (
 		<div className="flex bg-orange-400 justify-between h-24 ">
 			<Title />
@@ -49,6 +56,9 @@ const Header = () => {
 				>
 					{logBtn}
 				</button>
+				<Link>
+					<li className="font-bold">{loggedInUser}</li>
+				</Link>
 			</ul>
 		</div>
 	);

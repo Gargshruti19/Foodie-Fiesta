@@ -1,4 +1,4 @@
-import React, { lazy, Suspense } from "react";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 import ReactDOM from "react-dom/client";
 import Header from "./Components/Header";
 import Body from "./Components/Body";
@@ -9,6 +9,8 @@ import RestaurantMenu from "./Components/RestaurantMenu";
 import Contact from "./Components/Contact";
 
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+
+import UserContext from "./Utils/UserContext";
 // import Grocery from "./Components/Grocery";
 
 //Chunking
@@ -18,15 +20,29 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 //on demand loading
 //dynamic import
 //this one line is doing bundling our code
+
 const Grocery = lazy(() => import("./Components/Grocery"));
 const About = lazy(() => import("./Components/About"));
+
 const AppLayout = () => {
+	const [userName, setUserName] = useState();
+	//Authentication
+	useEffect(() => {
+		//Make an Api call and show data
+
+		const data = {
+			name: "Shruti Garg",
+		};
+		setUserName(data.name);
+	}, []);
 	return (
-		<>
-			<Header />
-			<Outlet />
-			<Footer />
-		</>
+		<UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+			<>
+				<Header />
+				<Outlet />
+				<Footer />
+			</>
+		</UserContext.Provider>
 	);
 };
 

@@ -5,6 +5,7 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 
 import useOnlineStatus from "../Utils/useOnlineStatus";
+import UserContext from "../Utils/UserContext";
 const filterData = (searchText, restaurants) => {
 	return restaurants.filter((restaurant) => {
 		if (restaurant.info && restaurant.info.name) {
@@ -18,7 +19,7 @@ const filterData = (searchText, restaurants) => {
 };
 
 const Body = () => {
-	const [searchText, setSearchText] = useState("");
+	const [searchText, setSearchText] = useState(" ");
 	const [allRestaurants, setAllRestaurants] = useState([]);
 	const [filteredRestaurant, setFilteredRestaurant] = useState([]);
 
@@ -64,7 +65,7 @@ const Body = () => {
 	return (
 		<>
 			{allRestaurants.length === 0 ? (
-				<Shimmer /> // Show Shimmer while data is loading
+				<Shimmer {...allRestaurants.info} /> // Show Shimmer while data is loading
 			) : (
 				<>
 					<div className="search-container  flex justify-center items-center m-6 space-x-5">
@@ -98,6 +99,14 @@ const Body = () => {
 						>
 							Top Rated Restaurants
 						</button>
+						<label for="user-name" className="font-bold text-xl">
+							User Name :
+						</label>
+						<input
+							id="user-name"
+							className="bg-black text-white placeholder:text-white px-2 py-1 placeholder:text-sm"
+							placeholder="Typing...."
+						></input>
 					</div>
 
 					<div className="flex flex-wrap space-x-8 justify-center">
