@@ -1,9 +1,9 @@
 import { useState, useContext } from "react";
 import logoImg from "../../assets/logo.png";
-
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../Utils/useOnlineStatus";
 import UserContext from "../Utils/UserContext";
+import { useSelector } from "react-redux";
 
 const Title = () => {
 	return (
@@ -17,9 +17,13 @@ const Header = () => {
 	const [logBtn, setLogBtn] = useState("Log In");
 	const onlineStatus = useOnlineStatus();
 
+	const { loggedInUser } = useContext(UserContext);
+	// console.log(loggedInUser);
 
-	const {loggedInUser} = useContext(UserContext);
-// console.log(loggedInUser);
+	//Selector is a hook inside react
+	//Subscribing to the store using our Selector
+	const cartItems = useSelector((store) => store.cart.items);
+	// console.log(cartItems);
 
 	return (
 		<div className="flex bg-orange-400 justify-between h-24 ">
@@ -41,7 +45,9 @@ const Header = () => {
 				</Link>
 
 				<Link>
-					<li>Cart</li>
+					<li className="font-bold text-2xl">
+						Cart - ({cartItems.length} items)
+					</li>
 				</Link>
 
 				<button

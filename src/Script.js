@@ -5,12 +5,12 @@ import Body from "./Components/Body";
 import Footer from "./Components/Footer";
 import Error from "./Components/Error";
 import RestaurantMenu from "./Components/RestaurantMenu";
-
 import Contact from "./Components/Contact";
-
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
-
 import UserContext from "./Utils/UserContext";
+import { Provider } from "react-redux";
+import appStore from "./Utils/appStore";
+
 // import Grocery from "./Components/Grocery";
 
 //Chunking
@@ -29,20 +29,21 @@ const AppLayout = () => {
 	//Authentication
 	useEffect(() => {
 		//Make an Api call and show data
-
 		const data = {
 			name: "Shruti Garg",
 		};
 		setUserName(data.name);
 	}, []);
 	return (
-		<UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
-			<>
-				<Header />
-				<Outlet />
-				<Footer />
-			</>
-		</UserContext.Provider>
+		<Provider store={appStore}>
+			<UserContext.Provider value={{ loggedInUser: userName, setUserName }}>
+				<div className="app">
+					<Header />
+					<Outlet />
+					<Footer />
+				</div>
+			</UserContext.Provider>
+		</Provider>
 	);
 };
 
