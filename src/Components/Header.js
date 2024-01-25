@@ -23,7 +23,7 @@ const Header = () => {
 	//Selector is a hook inside react
 	//Subscribing to the store using our Selector
 	const cartItems = useSelector((store) => store.cart.items);
-	// console.log(cartItems);
+	console.log(cartItems);
 
 	return (
 		<div className="flex bg-orange-400 justify-between h-24 ">
@@ -44,7 +44,7 @@ const Header = () => {
 					<li>Grocery</li>
 				</Link>
 
-				<Link>
+				<Link to="/cart">
 					<li className="font-bold text-2xl">
 						Cart - ({cartItems.length} items)
 					</li>

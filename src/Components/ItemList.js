@@ -2,16 +2,14 @@ import { useDispatch } from "react-redux";
 import { img_Menu_Food } from "../Utils/Constants";
 import { addItem } from "../Utils/cartSlice";
 const ItemList = ({ items }) => {
-	// console.log(items);
-
 	const dispatch = useDispatch();
-	const handleAddItems = () => {
+	const handleAddItems = (item) => {
 		//Dispatch an action
-		dispatch(addItem("burger"));
+		dispatch(addItem(item));
 	};
-// {
-// 	payload: "burger",
-// }
+	// {
+	// 	payload: "burger",
+	// }
 	return (
 		<div className="flex justify-center flex-col  m-3 bg-gray-300">
 			{items.map((item) => (
@@ -37,8 +35,8 @@ const ItemList = ({ items }) => {
 							src={img_Menu_Food + item.card.info.imageId}
 						></img>
 						<button
-							className="p-1 bg-orange-600 px-2 text-white shadow-lg absolute m-auto right-9 -bottom-4 rounded-lg"
-							onClick={()=>handleAddItems(item)}
+							className="p-1 bg-orange-600 px-2 text-white shadow-lg absolute m-auto right-9 -bottom-4 rounded-lg hover:bg-orange-500"
+							onClick={() => handleAddItems(item)}
 						>
 							Add +
 						</button>
