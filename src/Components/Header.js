@@ -1,5 +1,5 @@
 import { useState, useContext } from "react";
-import logoImg from "../../assets/logo.png";
+// import logoImg from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../Utils/useOnlineStatus";
 import UserContext from "../Utils/UserContext";
@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 const Title = () => {
 	return (
 		<div className="title w-24 mx-4">
-			<img className="logo" src={logoImg}></img>
+			{/* <img className="logo" src={logoImg} alt="logo"></img> */}
 		</div>
 	);
 };
