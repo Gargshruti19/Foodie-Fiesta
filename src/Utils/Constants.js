@@ -13,4 +13,6 @@ export const swiggyMenuApiURL =
 export const img_Menu_Food =
 	"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/";
 
-export const logo_Url = "../../assets/logo.png";
+// export const logo_Url = "../../assets/logo.png";
+export const logo_Url =
+	"https://yt3.googleusercontent.com/OkdyG2QHh8o3IIPf-rdIforDmn9Fh1W7b9TknW35unNC-VqOvE7oj4uppG971LQqvQM6tB8zO-s=s900-c-k-c0x00ffffff-no-rj";
