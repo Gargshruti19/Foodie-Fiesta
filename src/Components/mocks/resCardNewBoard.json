@@ -1,0 +1,48 @@
+{
+	"id": "762410",
+	"name": "Baap Of Rolls",
+	"cloudinaryImageId": "1c911da2b6ebfd3556965dc1ea1133d3",
+	"locality": "Begum Bridge Road",
+	"areaName": "Meerut Cantt",
+	"costForTwo": "₹199 for two",
+	"cuisines": ["Snacks", "Beverages", "Chinese"],
+	"avgRating": 4.3,
+	"parentId": "14310",
+	"avgRatingString": "4.3",
+	"totalRatingsString": "100+",
+	"sla": {
+		"deliveryTime": 20,
+		"lastMileTravel": 0.9,
+		"serviceability": "SERVICEABLE",
+		"slaString": "15-20 mins",
+		"lastMileTravelString": "0.9 km",
+		"iconType": "ICON_TYPE_EMPTY"
+	},
+	"availability": {
+		"nextCloseTime": "2024-01-30 00:00:00",
+		"opened": true
+	},
+	"badges": {},
+	"isOpen": true,
+	"aggregatedDiscountInfoV2": {},
+	"type": "F",
+	"badgesV2": {
+		"entityBadges": {
+			"imageBased": {},
+			"textBased": {},
+			"textExtendedBadges": {}
+		}
+	},
+	"differentiatedUi": {
+		"displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+		"differentiatedUiMediaDetails": {
+			"mediaType": "ADS_MEDIA_ENUM_IMAGE",
+			"lottie": {},
+			"video": {}
+		}
+	},
+	"reviewsSummary": {},
+	"displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+	"isNewlyOnboarded": true,
+	"restaurantOfferPresentationInfo": {}
+}

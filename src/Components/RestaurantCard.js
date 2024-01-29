@@ -2,7 +2,7 @@ import { imgCdnUrl } from "../Utils/Constants";
 
 const RestaurantCard = (props) => {
 	const { resData } = props;
-	console.log(resData);
+	// console.log(resData);
 	const { cloudinaryImageId, name, cuisines, areaName, costForTwo, avgRating } =
 		resData;
 	return (
@@ -24,11 +24,12 @@ const RestaurantCard = (props) => {
 //input - restaurant card
 //output - restaurant card promoted
 
-export const withPromotedLabel = (RestaurantCard) => {
+export const withNewlyBoardedLabel = (RestaurantCard) => {
 	return (props) => {
+		// console.log(props);
 		return (
 			<div>
-				<label className="text-white bg-black opacity-80 absolute m-2 p-1 rounded-lg z-10">
+				<label className="text-white bg-black opacity-80 absolute m-2 p-1 rounded-lg z-10" >
 					Newly Boarded
 				</label>
 				<RestaurantCard {...props} />
