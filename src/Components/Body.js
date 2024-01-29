@@ -121,9 +121,9 @@ const Body = () => {
 									to={"/restaurant/" + restaurant.info.id}
 								>
 									{restaurant.info.isNewlyOnboarded ? (
-										<RestaurantCardPromoted {...restaurant.info} />
+										<RestaurantCardPromoted resData={restaurant.info} />
 									) : (
-										<RestaurantCard {...restaurant.info} />
+										<RestaurantCard resData={restaurant.info} />
 									)}
 								</Link>
 							))
