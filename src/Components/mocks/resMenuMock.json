@@ -1,0 +1,3104 @@
+{
+	"statusCode": 0,
+	"data": {
+		"statusMessage": "done successfully",
+		"cards": [
+			{
+				"card": {
+					"card": {
+						"@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+						"info": {
+							"id": "113499",
+							"name": "Arora's Bakers and Snacks",
+							"city": "Meerut",
+							"slugs": {
+								"restaurant": "aroras-bakers-and-snacks-stadium-chowk-meerut-cantt",
+								"city": "meerut"
+							},
+							"uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+							"cloudinaryImageId": "xkm4ykjlhv1xp1qrmq1d",
+							"locality": "Puspak Kunj",
+							"areaName": "Civil Lines, Saket",
+							"costForTwo": "19900",
+							"costForTwoMessage": "₹199 for two",
+							"cuisines": ["Bakery", "Snacks"],
+							"avgRating": 4.2,
+							"veg": true,
+							"feeDetails": {
+								"restaurantId": "113499",
+								"fees": [
+									{
+										"name": "distance",
+										"fee": 2800
+									},
+									{
+										"name": "time"
+									},
+									{
+										"name": "special"
+									}
+								],
+								"totalFee": 2800,
+								"icon": "v1648635511/Delivery_fee_new_cjxumu",
+								"message": "Order above 149 for discounted delivery fee"
+							},
+							"parentId": "15479",
+							"avgRatingString": "4.2",
+							"totalRatingsString": "5K+ ratings",
+							"sla": {
+								"restaurantId": "113499",
+								"deliveryTime": 19,
+								"minDeliveryTime": 15,
+								"maxDeliveryTime": 20,
+								"lastMileTravel": 1.9,
+								"serviceability": "SERVICEABLE",
+								"stressFactor": 1,
+								"rainMode": "RAIN_MODE_NONE",
+								"longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+								"zoneId": 941,
+								"slaString": "15-20 MINS",
+								"lastMileTravelString": "1.8 km",
+								"iconType": "ICON_TYPE_EMPTY"
+							},
+							"availability": {
+								"nextCloseTime": "2024-01-29 23:00:00",
+								"visibility": true,
+								"opened": true,
+								"restaurantClosedMeta": {}
+							},
+							"aggregatedDiscountInfo": {
+								"shortDescriptionList": [
+									{
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									},
+									{
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									}
+								],
+								"descriptionList": [
+									{
+										"meta": "Flat ₹120 off | Use AXIS120 Above ₹500",
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									},
+									{
+										"meta": "Flat ₹50 off | Use SIMPL50 Above ₹400",
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									}
+								],
+								"visible": true
+							},
+							"badges": {},
+							"slugString": "aroras-bakers-and-snacks-stadium-chowk-meerut-cantt",
+							"isOpen": true,
+							"labels": [
+								{
+									"title": "Timings",
+									"message": "null"
+								},
+								{
+									"title": "Address",
+									"message": "117/4 Civil Lines, Saket"
+								},
+								{
+									"title": "Cuisines",
+									"message": "Bakery,Snacks"
+								}
+							],
+							"totalRatings": 5000,
+							"aggregatedDiscountInfoV2": {
+								"shortDescriptionList": [
+									{
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									},
+									{
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									}
+								],
+								"descriptionList": [
+									{
+										"meta": "Flat ₹120 off | Use AXIS120 Above ₹500",
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									},
+									{
+										"meta": "Flat ₹50 off | Use SIMPL50 Above ₹400",
+										"discountType": "Flat",
+										"operationType": "RESTAURANT"
+									}
+								],
+								"couponDetailsCta": "View coupon details"
+							},
+							"type": "F",
+							"headerBanner": {
+								"url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/113499"
+							},
+							"expectationNotifiers": [
+								{
+									"text": "Order above 149 for discounted delivery fee",
+									"icon": {
+										"imageId": "v1648635511/Delivery_fee_new_cjxumu"
+									},
+									"popup": {
+										"cta": {}
+									},
+									"type": "DISTANCE_FEE_NON_FOOD_LM",
+									"enrichedText": "Order above 149 for discounted delivery fee",
+									"halfCardPopup": {
+										"halfCardPopupHeader": {}
+									}
+								}
+							],
+							"ratingSlab": "RATING_SLAB_5",
+							"orderabilityCommunication": {
+								"title": {},
+								"subTitle": {},
+								"message": {},
+								"customIcon": {}
+							},
+							"hasBestsellerItems": true,
+							"cartOrderabilityNudgeBanner": {
+								"parameters": {},
+								"presentation": {}
+							},
+							"latLong": "28.990444,77.72241299999996"
+						},
+						"analytics": {}
+					},
+					"relevance": {
+						"type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+						"sectionId": "POP_UP_CROUTON_MENU"
+					}
+				}
+			},
+			{
+				"card": {
+					"card": {
+						"@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+						"layout": {
+							"rows": 1,
+							"columns": 2,
+							"horizontalScrollEnabled": true,
+							"itemSpacing": 12,
+							"lineSpacing": 10,
+							"widgetPadding": {},
+							"containerStyle": {
+								"containerPadding": {
+									"left": 10,
+									"right": 10,
+									"bottom": 16
+								}
+							},
+							"scrollBar": {}
+						},
+						"id": "offerCollectionWidget_UX4",
+						"gridElements": {
+							"infoWithStyle": {
+								"@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+								"offers": [
+									{
+										"info": {
+											"header": "FLAT ₹120 OFF",
+											"offerTagColor": "#E46D47",
+											"logoBottom": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+											"offerIds": ["0681e750-4d60-4066-9e7d-be11d720f180"],
+											"expiryTime": "1970-01-01T00:00:00Z",
+											"couponCode": "USE AXIS120",
+											"description": "ABOVE ₹500",
+											"offerType": "offers",
+											"restId": "113499",
+											"offerLogo": "rng/md/ads/production/32b9f8a87957f8c1ca369622f6a1ca77",
+											"descriptionTextColor": "#7302060C"
+										},
+										"cta": {
+											"type": "OFFER_HALF_CARD"
+										}
+									},
+									{
+										"info": {
+											"header": "FLAT ₹50 OFF",
+											"offerTagColor": "#E46D47",
+											"logoBottom": "rng/md/ads/production/7f31c9e47ddd7e6a3c16d21553c0ca60",
+											"offerIds": ["da7c769d-3b0b-4e7e-8de9-dca1395e8190"],
+											"expiryTime": "1970-01-01T00:00:00Z",
+											"couponCode": "USE SIMPL50",
+											"description": "ABOVE ₹400",
+											"offerType": "offers",
+											"restId": "113499",
+											"offerLogo": "rng/md/ads/production/7f31c9e47ddd7e6a3c16d21553c0ca60",
+											"descriptionTextColor": "#7302060C"
+										},
+										"cta": {
+											"type": "OFFER_HALF_CARD"
+										}
+									}
+								],
+								"habitMilestoneInfo": {
+									"callout": {}
+								}
+							}
+						}
+					}
+				}
+			},
+			{
+				"groupedCard": {
+					"cardGroupMap": {
+						"REGULAR": {
+							"cards": [
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+											"isPureVeg": true,
+											"badges": {},
+											"vegOnlyDetails": {
+												"imageId": "AutoVegOnly_qkjowj",
+												"title": "Showing only vegetarian options.",
+												"description": "Tap on the VEG ONLY button to turn off the setting"
+											},
+											"topRatedFilter": {},
+											"kidsCategoryFilter": {
+												"attributes": {
+													"displayText": "Kids Favourites",
+													"tooltip": {
+														"enabled": true,
+														"displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+													}
+												}
+											},
+											"vegFilter": {
+												"attributes": {
+													"displayText": "VEG"
+												}
+											},
+											"nonvegFilter": {
+												"attributes": {
+													"displayText": "NONVEG"
+												}
+											}
+										},
+										"relevance": {
+											"type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+											"sectionId": "MENU_FILTER_TOGGLE"
+										}
+									}
+								},
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+											"title": "Recommended",
+											"itemCards": [
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638068",
+															"name": "Veg Sandwich",
+															"category": "Snacks",
+															"description": "A flavorsome sandwich perfectly seasoned mixed vegetable.",
+															"imageId": "mprbgjc9pq0zo7bfkvzz",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "512 ratings",
+																	"ratingCountV2": "512"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638051",
+															"name": "Grilled Sandwich",
+															"category": "Snacks",
+															"description": "Serves 1 | A mouthwatering sandwich stuffed with assorted veggies, coated in sauces and slathered with cheese.",
+															"imageId": "efxneapn972abutnnmon",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.6",
+																	"ratingCount": "297 ratings",
+																	"ratingCountV2": "297"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638056",
+															"name": "Dhokla ",
+															"category": "Snacks",
+															"description": "4 pieces | A delectable and flavorful vegetarian snack made with a blend of enticing spices, perfect for satisfying your cravings.",
+															"imageId": "i2iyvca2i8xv2nkxcoqp",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6500,
+															"variants": {
+																"variantGroups": [
+																	{
+																		"groupId": "3047056",
+																		"name": "Quantity",
+																		"variations": [
+																			{
+																				"name": "250 gms",
+																				"default": 1,
+																				"id": "10187236",
+																				"inStock": 1,
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			},
+																			{
+																				"name": "500 gms",
+																				"price": 6500,
+																				"id": "10187237",
+																				"inStock": 1,
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			},
+																			{
+																				"name": "1kg",
+																				"price": 19500,
+																				"id": "10187238",
+																				"inStock": 1,
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			}
+																		]
+																	}
+																]
+															},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "4 pieces"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.7",
+																	"ratingCount": "404 ratings",
+																	"ratingCountV2": "404"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638067",
+															"name": "Veg Hot Dog ",
+															"category": "Snacks",
+															"description": "1 piece | A delectable veggie creation perfect for snacking, with a burst of flavors that will leave you craving for more.",
+															"imageId": "cuz1uimppucxv6kccj23",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "1 piece"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.1",
+																	"ratingCount": "548 ratings",
+																	"ratingCountV2": "548"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638064",
+															"name": "Veg Burger",
+															"category": "Snacks",
+															"description": "Serves 1 | Dig into this classic burger with a yummy veg patty topped with the choicest seasonings!",
+															"imageId": "dxxeumvipvjsznvo9jpa",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 5500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.7",
+																	"ratingCount": "351 ratings",
+																	"ratingCountV2": "351"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638053",
+															"name": "Cheese Burger",
+															"category": "Snacks",
+															"description": "Serves 1 | Flavourful patty cooked to perfection and stuffed between soft buns along with stringy cheese.",
+															"imageId": "ch9dyhouafzgtsvvexgr",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 7000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.4",
+																	"ratingCount": "537 ratings",
+																	"ratingCountV2": "537"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638062",
+															"name": "Stuffed Kulcha ( 1 Pc )",
+															"category": "Snacks",
+															"description": "Serves 1",
+															"imageId": "whbp95vbarnvyp3hyejn",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "344 ratings",
+																	"ratingCountV2": "344"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638075",
+															"name": "Aloo Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Delightfully crispy and flavorful, this delectable snack is perfect to satisfy your cravings.",
+															"imageId": "xec3cncbmblewyhltxx8",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 3000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.0",
+																	"ratingCount": "973 ratings",
+																	"ratingCountV2": "973"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638078",
+															"name": "Paneer Patty ( 1 Pc )",
+															"category": "Snacks",
+															"description": "Serves 1 | A delectable and crispy veg patty made with fresh paneer, perfect for snacking any time of the day.",
+															"imageId": "sexeao2iiaiz0593xnek",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 3500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.1",
+																	"ratingCount": "1164 ratings",
+																	"ratingCountV2": "1164"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638076",
+															"name": "Butter Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Indulge in a delectable, melt-in-your-mouth snack that will leave you craving for more.",
+															"imageId": "kggieyqvkfrxnc95graz",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "934 ratings",
+																	"ratingCountV2": "934"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638080",
+															"name": "Chilli Paneer Patties (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Savory and flavorful patties with a delightful crunch, perfect for snack time.",
+															"imageId": "obm1ekmykti29mxcjczd",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.5",
+																	"ratingCount": "736 ratings",
+																	"ratingCountV2": "736"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638082",
+															"name": "Macaroni Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Savour the crispy delight of our delectable Macaroni Patty, a scrumptious veg snack that bursts with irresistible flavors.",
+															"imageId": "lz3bxprnv0gn1yhh7tpf",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "653 ratings",
+																	"ratingCountV2": "653"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638085",
+															"name": "Pizza Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Mouthwatering and flavorful, this veggie-packed Pizza Patty is a perfect snack that will satisfy your cravings.",
+															"imageId": "vrgv2tedlrb1ugxr94gs",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "1025 ratings",
+																	"ratingCountV2": "1025"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638086",
+															"name": "Eggless Red Velvet Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"description": "A rich and decadent eggless cake bursting with the irresistible flavors of red velvet.",
+															"imageId": "pzmlcu69welhn8azvykw",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 50000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "31 ratings",
+																	"ratingCountV2": "31"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638088",
+															"name": "Eggless Butterscotch Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"description": "Indulge in the rich and irresistible flavors of our Eggless Butterscotch Cake, a heavenly delight for every cake lover.",
+															"imageId": "tlu6k1owsgtep7ajcews",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 40000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.0",
+																	"ratingCount": "56 ratings",
+																	"ratingCountV2": "56"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638090",
+															"name": "Eggless Strawberry Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"imageId": "opnbnnew2ml1ymhf1w4x",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 35000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.5",
+																	"ratingCount": "22 ratings",
+																	"ratingCountV2": "22"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638092",
+															"name": "Eggless Pineapple Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"description": "Indulge in a moist and flavorful slice of this delightful Eggless Pineapple Cake.",
+															"imageId": "xuc5h4yacxqvc7rzdit5",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 35000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "87 ratings",
+																	"ratingCountV2": "87"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281623",
+															"name": "Eggless Black Forest (1 kg)",
+															"category": "Eggless Cakes",
+															"imageId": "zk8sbsnooah3vs9yvxs8",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 70000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.1",
+																	"ratingCount": "9 ratings",
+																	"ratingCountV2": "9"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281624",
+															"name": "Eggless Chocolate Cake (1 kg)",
+															"category": "Eggless Cakes",
+															"imageId": "h8k5n83skgcr7vipfon2",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 70000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.4",
+																	"ratingCount": "10 ratings",
+																	"ratingCountV2": "10"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281642",
+															"name": "Biscuit Butter Pista ",
+															"category": "Biscuit",
+															"description": "400 gm",
+															"imageId": "y4dgfk4ffq2bcderk4fc",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 25000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "400 gm"
+															},
+															"ribbon": {},
+															"showImage": true,
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.9",
+																	"ratingCount": "19 ratings",
+																	"ratingCountV2": "19"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												}
+											],
+											"type": "CATEGORY_TYPE_RECOMMENDED"
+										}
+									}
+								},
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+											"title": "Snacks",
+											"itemCards": [
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638068",
+															"name": "Veg Sandwich",
+															"category": "Snacks",
+															"description": "A flavorsome sandwich perfectly seasoned mixed vegetable.",
+															"imageId": "mprbgjc9pq0zo7bfkvzz",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "512 ratings",
+																	"ratingCountV2": "512"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638051",
+															"name": "Grilled Sandwich",
+															"category": "Snacks",
+															"description": "Serves 1 | A mouthwatering sandwich stuffed with assorted veggies, coated in sauces and slathered with cheese.",
+															"imageId": "efxneapn972abutnnmon",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.6",
+																	"ratingCount": "297 ratings",
+																	"ratingCountV2": "297"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638056",
+															"name": "Dhokla ",
+															"category": "Snacks",
+															"description": "4 pieces | A delectable and flavorful vegetarian snack made with a blend of enticing spices, perfect for satisfying your cravings.",
+															"imageId": "i2iyvca2i8xv2nkxcoqp",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6500,
+															"variants": {
+																"variantGroups": [
+																	{
+																		"groupId": "3047056",
+																		"name": "Quantity",
+																		"variations": [
+																			{
+																				"name": "250 gms",
+																				"default": 1,
+																				"id": "10187236",
+																				"inStock": 1,
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			},
+																			{
+																				"name": "500 gms",
+																				"price": 6500,
+																				"id": "10187237",
+																				"inStock": 1,
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			},
+																			{
+																				"name": "1kg",
+																				"price": 19500,
+																				"id": "10187238",
+																				"inStock": 1,
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			}
+																		]
+																	}
+																]
+															},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "4 pieces"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.7",
+																	"ratingCount": "404 ratings",
+																	"ratingCountV2": "404"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638067",
+															"name": "Veg Hot Dog ",
+															"category": "Snacks",
+															"description": "1 piece | A delectable veggie creation perfect for snacking, with a burst of flavors that will leave you craving for more.",
+															"imageId": "cuz1uimppucxv6kccj23",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "1 piece"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.1",
+																	"ratingCount": "548 ratings",
+																	"ratingCountV2": "548"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638064",
+															"name": "Veg Burger",
+															"category": "Snacks",
+															"description": "Serves 1 | Dig into this classic burger with a yummy veg patty topped with the choicest seasonings!",
+															"imageId": "dxxeumvipvjsznvo9jpa",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 5500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.7",
+																	"ratingCount": "351 ratings",
+																	"ratingCountV2": "351"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638053",
+															"name": "Cheese Burger",
+															"category": "Snacks",
+															"description": "Serves 1 | Flavourful patty cooked to perfection and stuffed between soft buns along with stringy cheese.",
+															"imageId": "ch9dyhouafzgtsvvexgr",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 7000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.4",
+																	"ratingCount": "537 ratings",
+																	"ratingCountV2": "537"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638062",
+															"name": "Stuffed Kulcha ( 1 Pc )",
+															"category": "Snacks",
+															"description": "Serves 1",
+															"imageId": "whbp95vbarnvyp3hyejn",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "344 ratings",
+																	"ratingCountV2": "344"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638075",
+															"name": "Aloo Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Delightfully crispy and flavorful, this delectable snack is perfect to satisfy your cravings.",
+															"imageId": "xec3cncbmblewyhltxx8",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 3000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.0",
+																	"ratingCount": "973 ratings",
+																	"ratingCountV2": "973"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638078",
+															"name": "Paneer Patty ( 1 Pc )",
+															"category": "Snacks",
+															"description": "Serves 1 | A delectable and crispy veg patty made with fresh paneer, perfect for snacking any time of the day.",
+															"imageId": "sexeao2iiaiz0593xnek",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 3500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.1",
+																	"ratingCount": "1164 ratings",
+																	"ratingCountV2": "1164"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638076",
+															"name": "Butter Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Indulge in a delectable, melt-in-your-mouth snack that will leave you craving for more.",
+															"imageId": "kggieyqvkfrxnc95graz",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "934 ratings",
+																	"ratingCountV2": "934"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638080",
+															"name": "Chilli Paneer Patties (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Savory and flavorful patties with a delightful crunch, perfect for snack time.",
+															"imageId": "obm1ekmykti29mxcjczd",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.5",
+																	"ratingCount": "736 ratings",
+																	"ratingCountV2": "736"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638082",
+															"name": "Macaroni Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Savour the crispy delight of our delectable Macaroni Patty, a scrumptious veg snack that bursts with irresistible flavors.",
+															"imageId": "lz3bxprnv0gn1yhh7tpf",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "653 ratings",
+																	"ratingCountV2": "653"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638085",
+															"name": "Pizza Patty (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1 | Mouthwatering and flavorful, this veggie-packed Pizza Patty is a perfect snack that will satisfy your cravings.",
+															"imageId": "vrgv2tedlrb1ugxr94gs",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "1025 ratings",
+																	"ratingCountV2": "1025"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "62948704",
+															"name": "Tandoori Patties (1 Pc)",
+															"category": "Snacks",
+															"description": "Serves 1",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.3",
+																	"ratingCount": "35 ratings",
+																	"ratingCountV2": "35"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638084",
+															"name": "Mushroom Patty",
+															"category": "Snacks",
+															"description": "Delightfully crispy and flavorful, this delectable snack is perfect to satisfy your cravings.",
+															"imageId": "h3z6nobhfumve3jalczi",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 5000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.0",
+																	"ratingCount": "140 ratings",
+																	"ratingCountV2": "140"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "62948697",
+															"name": "Makhni Patties",
+															"category": "Snacks",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.0",
+																	"ratingCount": "28 ratings",
+																	"ratingCountV2": "28"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638070",
+															"name": "Pizza",
+															"category": "Snacks",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 18000,
+															"variants": {
+																"variantGroups": [
+																	{
+																		"groupId": "2853256",
+																		"name": "Quantity",
+																		"variations": [
+																			{
+																				"name": "6''",
+																				"default": 1,
+																				"id": "9481849",
+																				"inStock": 1,
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			},
+																			{
+																				"name": "8''",
+																				"price": 7000,
+																				"id": "9481850",
+																				"isVeg": 1,
+																				"isEnabled": 1
+																			}
+																		]
+																	}
+																]
+															},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "2.2",
+																	"ratingCount": "96 ratings",
+																	"ratingCountV2": "96"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638073",
+															"name": "Stuffed Pizza",
+															"category": "Snacks",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 8000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.4",
+																	"ratingCount": "117 ratings",
+																	"ratingCountV2": "117"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638055",
+															"name": "Cheese Roll",
+															"category": "Snacks",
+															"description": "Serves 1 | Soft rumali roti rolled in with juicy strips of tender veg and wholesome cheese.",
+															"imageId": "nvtlitfhtjclvwpeacbp",
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"nextAvailableAtMessage": "Next available at 10 am, tomorrow",
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "578 ratings",
+																	"ratingCountV2": "578"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638060",
+															"name": "Paneer Pakora ( 1 Pc )",
+															"category": "Snacks",
+															"description": "Serves 1 | Crispy fritter with a golden exterior and a delightful, flavorful center.",
+															"imageId": "g1kvvxarz1m0fpukzo3y",
+															"isVeg": 1,
+															"price": 4000,
+															"variants": {},
+															"variantsV2": {},
+															"nextAvailableAtMessage": "Next available at 3:48 pm, tomorrow",
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.7",
+																	"ratingCount": "692 ratings",
+																	"ratingCountV2": "692"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+											"title": "Eggless Cakes",
+											"itemCards": [
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638086",
+															"name": "Eggless Red Velvet Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"description": "A rich and decadent eggless cake bursting with the irresistible flavors of red velvet.",
+															"imageId": "pzmlcu69welhn8azvykw",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 50000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "31 ratings",
+																	"ratingCountV2": "31"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638087",
+															"name": "Eggless Chocolate Cake (600gm)",
+															"category": "Eggless Cakes",
+															"description": "500 gm | Serves 1 | Indulge in a delectable, moist chocolate cake that's free of eggs, perfect for vegetarians.",
+															"imageId": "iedfdqwcxpsdyfmeaefv",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 40000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "500 gm"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.9",
+																	"ratingCount": "195 ratings",
+																	"ratingCountV2": "195"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638088",
+															"name": "Eggless Butterscotch Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"description": "Indulge in the rich and irresistible flavors of our Eggless Butterscotch Cake, a heavenly delight for every cake lover.",
+															"imageId": "tlu6k1owsgtep7ajcews",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 40000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.0",
+																	"ratingCount": "56 ratings",
+																	"ratingCountV2": "56"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638089",
+															"name": "Eggless Black Forest (600 gms)",
+															"category": "Eggless Cakes",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 40000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.5",
+																	"ratingCount": "33 ratings",
+																	"ratingCountV2": "33"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638090",
+															"name": "Eggless Strawberry Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"imageId": "opnbnnew2ml1ymhf1w4x",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 35000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.5",
+																	"ratingCount": "22 ratings",
+																	"ratingCountV2": "22"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638092",
+															"name": "Eggless Pineapple Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"description": "Indulge in a moist and flavorful slice of this delightful Eggless Pineapple Cake.",
+															"imageId": "xuc5h4yacxqvc7rzdit5",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 35000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "87 ratings",
+																	"ratingCountV2": "87"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638093",
+															"name": "Eggless Mango Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 40000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.1",
+																	"ratingCount": "11 ratings",
+																	"ratingCountV2": "11"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281623",
+															"name": "Eggless Black Forest (1 kg)",
+															"category": "Eggless Cakes",
+															"imageId": "zk8sbsnooah3vs9yvxs8",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 70000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.1",
+																	"ratingCount": "9 ratings",
+																	"ratingCountV2": "9"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281624",
+															"name": "Eggless Chocolate Cake (1 kg)",
+															"category": "Eggless Cakes",
+															"imageId": "h8k5n83skgcr7vipfon2",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 70000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.4",
+																	"ratingCount": "10 ratings",
+																	"ratingCountV2": "10"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281628",
+															"name": "Eggless Butterscotch Cake (1 kg)",
+															"category": "Eggless Cakes",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 70000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "2.5",
+																	"ratingCount": "7 ratings",
+																	"ratingCountV2": "7"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638091",
+															"name": "Eggless Pista Cake (600 gms)",
+															"category": "Eggless Cakes",
+															"imageId": "rgsugjlkccgnpgjhg5jh",
+															"isVeg": 1,
+															"price": 40000,
+															"variants": {},
+															"variantsV2": {},
+															"nextAvailableAtMessage": "Next available at 10 am, tomorrow",
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "57 ratings",
+																	"ratingCountV2": "57"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281626",
+															"name": "Eggless Pineapple Cake (1 kg)",
+															"category": "Eggless Cakes",
+															"isVeg": 1,
+															"price": 60000,
+															"variants": {},
+															"variantsV2": {},
+															"nextAvailableAtMessage": "Next available at 10 am, tomorrow",
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.1",
+																	"ratingCount": "13 ratings",
+																	"ratingCountV2": "13"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+											"title": "Biscuit",
+											"itemCards": [
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281641",
+															"name": "Biscuit Atta Desi Ghee",
+															"category": "Biscuit",
+															"description": "400 gm | Serves 1",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 20000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "400 gm"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "5.0",
+																	"ratingCount": "19 ratings",
+																	"ratingCountV2": "19"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281642",
+															"name": "Biscuit Butter Pista ",
+															"category": "Biscuit",
+															"description": "400 gm | Serves 1",
+															"imageId": "y4dgfk4ffq2bcderk4fc",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 25000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "400 gm"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.9",
+																	"ratingCount": "19 ratings",
+																	"ratingCountV2": "19"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281644",
+															"name": "Biscuit Sooji (400 Gms)",
+															"category": "Biscuit",
+															"description": "Serves 1",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.8",
+																	"ratingCount": "24 ratings",
+																	"ratingCountV2": "24"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281636",
+															"name": "Biscuit Cheesta (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.1",
+																	"ratingCount": "5 ratings",
+																	"ratingCountV2": "5"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281637",
+															"name": "Biscuit Fan (200grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 7500,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.3",
+																	"ratingCount": "66 ratings",
+																	"ratingCountV2": "66"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281639",
+															"name": "Biscuit Butter Badam (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 25000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.8",
+																	"ratingCount": "24 ratings",
+																	"ratingCountV2": "24"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281640",
+															"name": "Biscuit Butter Kaju (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 25000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.9",
+																	"ratingCount": "17 ratings",
+																	"ratingCountV2": "17"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281645",
+															"name": "Biscuit Julie Ajwain (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "5.0",
+																	"ratingCount": "5 ratings",
+																	"ratingCountV2": "5"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281646",
+															"name": "Biscuit Julie (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281647",
+															"name": "Biscuit Aata Plain (400grm)",
+															"category": "Biscuit",
+															"imageId": "puyudxnwrmrqrkt18pni",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "2.4",
+																	"ratingCount": "17 ratings",
+																	"ratingCountV2": "17"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281648",
+															"name": "Biscuit Peanut Butter (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.0",
+																	"ratingCount": "8 ratings",
+																	"ratingCountV2": "8"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281649",
+															"name": "Biscuit Chocolate Peanut (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.2",
+																	"ratingCount": "10 ratings",
+																	"ratingCountV2": "10"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281618",
+															"name": "Biscuit Jeera Plain (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "2.0",
+																	"ratingCount": "13 ratings",
+																	"ratingCountV2": "13"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281619",
+															"name": "Biscuit Butter Jeera (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 21000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.0",
+																	"ratingCount": "5 ratings",
+																	"ratingCountV2": "5"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281620",
+															"name": "Biscuit Coconut Cookies (400grm)",
+															"category": "Biscuit",
+															"imageId": "zudeli00iyldljjxivqp",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 18000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "1.2",
+																	"ratingCount": "14 ratings",
+																	"ratingCountV2": "14"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281621",
+															"name": "Biscuit Badam Laccha (400grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 18000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.8",
+																	"ratingCount": "22 ratings",
+																	"ratingCountV2": "22"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "33281622",
+															"name": "Biscuit Macron (200grm)",
+															"category": "Biscuit",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 15000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.4",
+																	"ratingCount": "7 ratings",
+																	"ratingCountV2": "7"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+											"title": "Pastries",
+											"itemCards": [
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638126",
+															"name": "Badam Pastry",
+															"category": "Pastries",
+															"imageId": "x9nljtlwllnyhh37ndc2",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.4",
+																	"ratingCount": "81 ratings",
+																	"ratingCountV2": "81"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638127",
+															"name": "Black Forest Pastry ( 1 Pc )",
+															"category": "Pastries",
+															"description": "Serves 1",
+															"imageId": "o9dztthhkp0skryj6h55",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "2.7",
+																	"ratingCount": "603 ratings",
+																	"ratingCountV2": "603"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638135",
+															"name": "Pista Pastry (1 Pc)",
+															"category": "Pastries",
+															"description": "Serves 1",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.5",
+																	"ratingCount": "69 ratings",
+																	"ratingCountV2": "69"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638129",
+															"name": "Chocolate Pastry ( 1 Pc )",
+															"category": "Pastries",
+															"description": "Serves 1",
+															"imageId": "hquy90syugaq9s4kqaph",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.0",
+																	"ratingCount": "284 ratings",
+																	"ratingCountV2": "284"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638136",
+															"name": "Pudding Pastry (1 Pc)",
+															"category": "Pastries",
+															"description": "Serves 1",
+															"imageId": "vwu3hebgi1mr8zkrdgpf",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {
+																"text": "Bestseller",
+																"textColor": "#ffffff",
+																"topBackgroundColor": "#d53d4c",
+																"bottomBackgroundColor": "#b02331"
+															},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"isBestseller": true,
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "4.1",
+																	"ratingCount": "354 ratings",
+																	"ratingCountV2": "354"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638128",
+															"name": "Butterscotch Pastry",
+															"category": "Pastries",
+															"description": "Serves -1",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.3",
+																	"ratingCount": "173 ratings",
+																	"ratingCountV2": "173"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638134",
+															"name": "Pineapple Pastry (1 Pc)",
+															"category": "Pastries",
+															"description": "Serves 1 | Indulge in a scrumptious and fruity treat with our delightful Pineapple Pastry.",
+															"imageId": "imxupdauawctvboxioa9",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 4000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG",
+																"portionSize": "Serves 1"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "3.1",
+																	"ratingCount": "308 ratings",
+																	"ratingCountV2": "308"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "31638133",
+															"name": "Mango Pastry",
+															"category": "Pastries",
+															"imageId": "tejejvmmp7mtwdggkvxe",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 6000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {
+																	"rating": "2.3",
+																	"ratingCount": "95 ratings",
+																	"ratingCountV2": "95"
+																}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												},
+												{
+													"card": {
+														"@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+														"info": {
+															"id": "131086540",
+															"name": "Red Velvet Pastry",
+															"category": "Pastries",
+															"description": "Indulge in a scrumptious and fruity treat with our delightful red velvet pastry.",
+															"inStock": 1,
+															"isVeg": 1,
+															"price": 8000,
+															"variants": {},
+															"variantsV2": {},
+															"itemAttribute": {
+																"vegClassifier": "VEG"
+															},
+															"ribbon": {},
+															"type": "ITEM",
+															"itemBadge": {},
+															"badgesV2": {},
+															"ratings": {
+																"aggregatedRating": {}
+															}
+														},
+														"analytics": {},
+														"hideRestaurantDetails": true
+													}
+												}
+											]
+										}
+									}
+								},
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+											"type": "FSSAI",
+											"imageId": "fssai_final_edss9i",
+											"text": ["License No. 22722684000032"]
+										}
+									}
+								},
+								{
+									"card": {
+										"card": {
+											"@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+											"name": "Arora's Bakers and Snacks",
+											"area": "Civil Lines, Saket",
+											"completeAddress": "117/4 Civil Lines, Saket"
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+		],
+		"firstOffsetRequest": true,
+		"isQCLink": false
+	},
+	"tid": "45417f02-ad3b-477a-bbc8-d4ec794c28fe",
+	"sid": "bv4ba48d-8528-4738-a1e6-7e0d4f1b7558",
+	"deviceId": "b2865adf-4b0f-5f43-3e21-3441a86b06ca",
+	"csrfToken": "tBJvL9FpT8iU-nkMbMfp2AR5fJj_orqJ8mlOS1X8"
+}
